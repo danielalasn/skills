@@ -16,6 +16,7 @@ You can install all or individual skills from this repository using the [Skills 
 npx skills add danielalasn/skills
 
 # Install a specific skill
+npx skills add danielalasn/skills --skill anatomy
 npx skills add danielalasn/skills --skill design-taste-frontend
 npx skills add danielalasn/skills --skill image-to-code
 npx skills add danielalasn/skills --skill brand-design-systems
@@ -34,6 +35,7 @@ npx skills add danielalasn/skills -g -y
 
 | Skill | Description | Original Source |
 | :--- | :--- | :--- |
+| **`anatomy`** | Build crafted, highly detailed, interactive isometric SVG figures that explain technical ideas as physical objects (test rigs, gauges, plotters, locks) with four-tone shading and calm motion. | [wheresryan22/anatomy](https://github.com/wheresryan22/anatomy) |
 | **`design-taste-frontend`** | Anti-slop frontend art direction distilled from 247 curated Awwwards & One Page Love sites. Enforces strict typography, varied layouts, harmonious palettes, and browser validation. | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) |
 | **`image-to-code`** | Elite image-first website workflow. Generates reference design images first, performs deep visual analysis, and then implements faithful frontend code without card clutter. | [Leonxlnx/imagegen-skills](https://github.com/Leonxlnx/imagegen-skills) |
 | **`brand-design-systems`** | 84 authentic, production-grade `DESIGN.md` specifications extracted from industry leaders (Stripe, Linear, Vercel, Apple, Claude, Cursor, Raycast, Supabase, Figma, etc.). | [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) |
@@ -64,6 +66,10 @@ Ask your AI agent:
 Ask your AI agent:
 > *"Use playwright-cli to open the local dev server, navigate to the signup page, fill the form, and verify that the success toast appears."*
 
+### 6. Interactive Isometric SVG Figures
+Ask your AI agent:
+> *"Use anatomy to create an isometric technical SVG illustration explaining our event streaming pipeline as an intricate physical machine."*
+
 ---
 
 ## 📁 Repository Structure
@@ -71,6 +77,7 @@ Ask your AI agent:
 ```text
 skills/
 ├── skills/
+│   ├── anatomy/                  # Isometric technical SVG figures & explainers
 │   ├── brand-design-systems/     # 84 brand DESIGN.md files + SKILL.md
 │   ├── design-taste-frontend/    # Anti-slop frontend art direction
 │   ├── image-to-code/            # Image-first design-to-code pipeline
